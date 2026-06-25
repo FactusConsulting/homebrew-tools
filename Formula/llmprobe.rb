@@ -1,28 +1,28 @@
 class Llmprobe < Formula
   desc "Agent-friendly CLI for probing OpenAI-compatible LLM endpoints"
   homepage "https://github.com/FactusConsulting/llmprobe"
-  version "0.1.5"
+  version "0.2.0"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/FactusConsulting/llmprobe/releases/download/v0.1.5/llmprobe-osx-arm64.tar.gz"
-      sha256 "f051ca6d34ffaacf970fdac528168f023bbbb3f0067bd0cb1d9f0b74e52e9b1d"
+      url "https://github.com/FactusConsulting/llmprobe/releases/download/v0.2.0/llmprobe-osx-arm64.tar.gz"
+      sha256 "27683046708176f8c22ffa94a1b2869ddb61a100a9e9db05e3bfb2ae581b1dc1"
     end
     on_intel do
-      url "https://github.com/FactusConsulting/llmprobe/releases/download/v0.1.5/llmprobe-osx-x64.tar.gz"
-      sha256 "cb4291678b28b3fbcdd7c869d0ea045e757639ffaff353d95afabbffd03b0447"
+      url "https://github.com/FactusConsulting/llmprobe/releases/download/v0.2.0/llmprobe-osx-x64.tar.gz"
+      sha256 "ab4991cd47560850d8c85d740bef1eb91bd3ef49d22ad1133a186302d429dd3c"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/FactusConsulting/llmprobe/releases/download/v0.1.5/llmprobe-linux-arm64.tar.gz"
-      sha256 "114d195a586a9b8e44842ae48cfd02ef51d01e71d12de718b452f4a24a7c0943"
+      url "https://github.com/FactusConsulting/llmprobe/releases/download/v0.2.0/llmprobe-linux-arm64.tar.gz"
+      sha256 "9568c60b81cd02365272377c89f8c90a129a773147ead362f31f6dcb4835d39e"
     end
     on_intel do
-      url "https://github.com/FactusConsulting/llmprobe/releases/download/v0.1.5/llmprobe-linux-x64.tar.gz"
-      sha256 "7c2b9965c2bcaf3ff83fa58648b0c03ee6bce84a55ae6b7fce54d3c0bb59bdf2"
+      url "https://github.com/FactusConsulting/llmprobe/releases/download/v0.2.0/llmprobe-linux-x64.tar.gz"
+      sha256 "55d4d8af47406b7f2f45c5d74f8fbdb4eb07a41713b5b857893f7d73a895a083"
     end
   end
 
