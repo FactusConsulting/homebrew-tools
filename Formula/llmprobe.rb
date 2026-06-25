@@ -6,8 +6,8 @@ class Llmprobe < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/FactusConsulting/llmprobe/releases/download/v0.2.0/llmprobe-osx-arm64.tar.gz"
-      sha256 "27683046708176f8c22ffa94a1b2869ddb61a100a9e9db05e3bfb2ae581b1dc1"
+      url "https://github.com/FactusConsulting/llmprobe/archive/refs/tags/v0.2.1.tar.gz"
+      sha256 "83485ad7ca063e0c84c6f51b3b7d16f4d023c64cac37939bce71055188361d0d"
     end
     on_intel do
       url "https://github.com/FactusConsulting/llmprobe/releases/download/v0.2.0/llmprobe-osx-x64.tar.gz"
