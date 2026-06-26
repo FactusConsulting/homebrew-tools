@@ -1,28 +1,28 @@
 class Inferstat < Formula
   desc "Agent-friendly CLI for inspecting llama.cpp/vLLM/Ollama inference servers"
   homepage "https://github.com/FactusConsulting/inferstat"
-  version "0.1.7"
+  version "0.1.8"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/FactusConsulting/inferstat/releases/download/v0.1.7/inferstat-osx-arm64.tar.gz"
-      sha256 "7dd51e0721f8f9dc06845074c5aaec376747c2d857e4fa5a95b61488f79e969b"
+      url "https://github.com/FactusConsulting/inferstat/releases/download/v0.1.8/inferstat-osx-arm64.tar.gz"
+      sha256 "4c5773f4038141e64d9673974775c002a872d2a86cf008e46eab297317b67b0c"
     end
     on_intel do
-      url "https://github.com/FactusConsulting/inferstat/releases/download/v0.1.7/inferstat-osx-x64.tar.gz"
-      sha256 "00b61234de71124fe127df1404292639978d3c6372f73976432b8eb2cbd6c149"
+      url "https://github.com/FactusConsulting/inferstat/releases/download/v0.1.8/inferstat-osx-x64.tar.gz"
+      sha256 "930d86ddf38183b8d8a2394b297527c884908ac8decf19a1d8ca976d1f294b13"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/FactusConsulting/inferstat/releases/download/v0.1.7/inferstat-linux-arm64.tar.gz"
-      sha256 "7f3e012a55b0b12d4fe8c358056e555b6cdba68951b07507a15e68b07a47efa1"
+      url "https://github.com/FactusConsulting/inferstat/releases/download/v0.1.8/inferstat-linux-arm64.tar.gz"
+      sha256 "d22d1f34a9845efa0db1b82a7c24886e18ce78bd4aa73cd2bff6b8323cb0e011"
     end
     on_intel do
-      url "https://github.com/FactusConsulting/inferstat/releases/download/v0.1.7/inferstat-linux-x64.tar.gz"
-      sha256 "0e22e978192b77085bf6ec618a09640379d68956b4f776f69e0729d660af5613"
+      url "https://github.com/FactusConsulting/inferstat/releases/download/v0.1.8/inferstat-linux-x64.tar.gz"
+      sha256 "66f15f137b54b2e94df53cf429ac507202a487a779a59d01f84289a87303db1f"
     end
   end
 
